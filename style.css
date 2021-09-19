@@ -1,0 +1,46 @@
+html, body {
+    font-family: cursive;
+    margin: 0 auto;
+    width: 21cm;
+    /* background-color: rgb(221, 221, 221); */
+    height: 100%;
+    font-size: 14px;
+}
+
+@media print {
+    @page {
+        margin: 0 auto;
+    }
+}
+
+.main {
+    background-color: white;
+}
+
+.head {
+    text-align: center;
+}
+.head p {
+    margin: 0px;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+div {
+    margin-bottom: 30px;
+}
+
+.conteudo {
+    margin: 20px;
+}
+
+.objetivo {
+    text-align: justify;
+}
+
+.footer {
+    float: right;
+}
+
