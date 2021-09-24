@@ -4,7 +4,7 @@ html, body {
     max-width: 21cm;
     height: 100%;
     font-size: 14px;
-    letter-spacing: 1px;
+    letter-spacing: 0.05em;
     background-color: white;
 }
 
