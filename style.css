@@ -1,27 +1,43 @@
 html, body {
-    font-family: cursive;
+    font-family: arial;
     margin: 0 auto;
-    width: 21cm;
-    /* background-color: rgb(221, 221, 221); */
+    max-width: 21cm;
     height: 100%;
     font-size: 14px;
+    letter-spacing: 1px;
+    background-color: white;
 }
 
 @media print {
     @page {
-        margin: 0 auto;
+        size: A4;
     }
 }
 
-.main {
-    background-color: white;
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    width: 100%;
+    float: left;
+    padding: 5px;
+    background-color: rgb(209, 209, 209); 
+    color: rgb(51, 51, 51);
+    text-align: center; 
+    font-size: 15px; 
+    border-radius: 20px; 
+    font-weight: bold;
+    border: 1px solid black;
 }
 
 .head {
     text-align: center;
+    margin-bottom: 20px;
 }
 .head p {
-    margin: 0px;
+    margin: 5px;
 }
 
 h2 {
@@ -36,8 +52,9 @@ div {
     margin: 20px;
 }
 
-.objetivo {
+.objetivo p {
     text-align: justify;
+    line-height: 27px;
 }
 
 .footer {
